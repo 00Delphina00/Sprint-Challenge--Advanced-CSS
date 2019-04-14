@@ -34,15 +34,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+An adaptive website contains several different versions made for specific screen sizes.  I fully responsive site contains percent based layouts and breakpoints at specific screen widths and also the option of resizing text with REM if the browser allows it.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+I assume that mobile first means that min-width media queries are used and that the mobile version is the initial build.  I assume that desktop first means that max-width media queries are used and the desktop version is the initial build.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+Most browsers use 16 pixels as the default text size.  Setting the font size to 62.5% in the html tag changes the pixel size to a base of roughly 10pixels which is 62.5% of 16 pixels.  That makes it easier for us to resize rem units according to a base of 10.
+
 4. How would you describe preprocessing to someone new to CSS?
+
+I would describe preprocessing as a technique to break up the responibilities of coding into sections and merge them with fewer commit conflicts.
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
+My favorite concept in preprocessing is the freedom to do nesting because then large chunks of the CSS code can be collapsed for conveniencs.  The concept that gives me trouble is that I'm unclear on whether I need to initiate the less-watch-compiler for each individual less file even if they're imported into the index.  My developer tools started acting weird on me and saying that my index file was corrupted during the previous project.  I'm trying to figure out where I went wrong and broke my code.
+
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
+
 
 ## Project Set Up
 
