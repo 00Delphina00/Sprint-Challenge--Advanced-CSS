@@ -169,8 +169,7 @@ p {
   width: 100%;
   margin: 0 auto;
 }
-html .navigation-bar,
-body .navigation-bar {
+.navigation-bar {
   font-size: inherit;
   font-family: inherit;
   color: #22283B;
@@ -183,6 +182,9 @@ body .navigation-bar {
   justify-content: center;
   align-items: center;
   border: 1px solid red;
+}
+.navigation-bar nav {
+  margin-top: 20px;
 }
 footer {
   color: #22283B;
