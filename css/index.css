@@ -160,7 +160,7 @@ p {
   width: 100%;
   margin: 0 auto;
 }
-header {
+.navigation-bar {
   color: #22283B;
   background: #f4f4f4;
   padding: 20px 0;
