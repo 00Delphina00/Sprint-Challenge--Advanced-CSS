@@ -146,6 +146,7 @@ h5 {
   color: #23293B;
 }
 a {
+  color: #5E6164;
   text-decoration: none;
   font-size: 1.6rem;
   line-height: 1.4;
@@ -184,7 +185,6 @@ p {
   margin-bottom: 0px;
 }
 .navigation-bar nav {
-  color: #454A59;
   border: #F1F1F1;
   margin-top: 20px;
 }
@@ -243,8 +243,8 @@ footer {
   }
 }
 .home .walk .btn {
-  color: red;
-  background-color: blue;
+  color: #F6F7F8;
+  background-color: #22283A;
   height: 40px;
   width: 30%;
   border-radius: 10px;
@@ -254,8 +254,8 @@ footer {
   padding: 10px;
 }
 .home .walk .btn .btn:hover {
-  color: blue;
-  background-color: red;
+  color: #22283A;
+  background-color: #F6F7F8;
 }
 @media (max-width:500px) {
   .home .walk .btn {
