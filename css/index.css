@@ -239,7 +239,7 @@ footer {
 }
 @media (max-width:500px) {
   .home .walk {
-    flex-direction: column;
+    flex-direction: column-reverse;
     width: 100%;
   }
 }
@@ -267,7 +267,6 @@ footer {
 @media (max-width:500px) {
   .home .walk img {
     Justify-content: flex-start;
-    border: 1px solid red;
     margin: 0px 0px;
     width: 150%;
     order: 1;
