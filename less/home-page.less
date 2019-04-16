@@ -47,21 +47,11 @@
     padding: 50px 60px;
     display: flex;
     justify-content: center;
-    
+
     @media @phone {
       flex-direction: column;
-      // border: 1px solid red;
       width: 100%;
-      
-      .walk-text {
-        // border: 1px solid red; 
-        width: 100%;
-      }
-       .walk-img {
-        order: 1;
-        //  border: 1px solid red;
-        width: 100%;
-      }
+      // border: 1px solid red;
     }
     .btn {
       .btn;
@@ -70,7 +60,17 @@
       width: 100%;
       height: auto;
       border-radius: 15px;
-    }
+      @media @phone {
+          Justify-content: flex-start;
+          border: 1px solid red;
+          margin: 0px 0px;
+          width: 150%;
+          order: 1;
+          vertical-align: text-top;
+        }
+         
+      }
+    
     
     .walk-text {
   
