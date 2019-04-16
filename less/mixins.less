@@ -10,10 +10,21 @@
     font-weight: bold;
     font-size: 1.8rem;
     padding: 10px; 
+    
+    .btn:hover{
+        color:@btn-bg-color;
+        background-color:@porcelain;
+    }
+    @media (max-width: 790px){
+        width: 100%;
+    }
     @media @phone {
-        width:200%;
+        border-radius: 5px;
+        height: 60px;
+        // margin-left: 0px;
+        width:95%;
+        padding-top: 20px;
     }   
 }
-
 
  
