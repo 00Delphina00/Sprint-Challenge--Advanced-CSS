@@ -253,13 +253,9 @@ footer {
   font-size: 1.8rem;
   padding: 10px;
 }
-.home .walk .btn .btn:hover {
-  color: #22283A;
-  background-color: #F6F7F8;
-}
 @media (max-width:500px) {
   .home .walk .btn {
-    width: 100%;
+    width: 200%;
   }
 }
 .home .walk img {
