@@ -242,11 +242,30 @@ footer {
     flex-direction: column;
   }
 }
+.home .walk .btn {
+  color: red;
+  background-color: blue;
+  height: 40px;
+  width: 30%;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.8rem;
+  padding: 10px;
+}
+.home .walk .btn .btn:hover {
+  color: blue;
+  background-color: red;
+}
+@media (max-width:500px) {
+  .home .walk .btn {
+    width: 100%;
+  }
+}
 .home .walk img {
   width: 100%;
   height: auto;
-  border-radius: 20px;
-  order: 0;
+  border-radius: 15px;
 }
 .home .walk .walk-text {
   width: 50%;
