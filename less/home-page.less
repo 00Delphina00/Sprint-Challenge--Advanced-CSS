@@ -1,6 +1,9 @@
 // Home Content
 
 .home {
+    @media @phone {
+      width: 500px;
+    }
     //  border: 1px solid red;
   .intro {
     width: 100%;
@@ -27,7 +30,7 @@
       justify-content: space-around;
       .blast {
         width: 95%;
-        height: 50%
+        height: 95%;
       }
       .sky{
         display: none;
@@ -71,27 +74,30 @@
     }
     .btn {
       .btn;
+    } 
+    
+    .btn:hover {color:@btn-bg-color;
+      background-color:@porcelain;
     }
+    
     img {
       width: 100%;
       height: auto;
       border-radius: 10px;
       @media @phone {
-          
           padding: 0px;
           // border: 1px solid red;
           margin: 0px 10px;
           width: 95%;
           order: 1;
           vertical-align: text-top;
+          
         }
          
       }
-    
-    
     .walk-text {
   
-      width: 50%;
+      width: 55%;
       // border: 1px solid red;
       margin-right: 20px;
       @media @phone {
@@ -106,11 +112,15 @@
       p {
         margin-bottom: 26px;
       }
-      
+    }  
     .walk-img {
-      width: 46%;
-      margin-left: 20%;
+      // border: 1px solid red;
+      width: 45%;
+      margin-left: 1%;
+      @media @phone {
+        width: 100%;
+        height: auto;
+      }
     }
-    }
-  }
+}
 }
